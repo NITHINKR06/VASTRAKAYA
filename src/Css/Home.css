@@ -1,0 +1,88 @@
+.mainDiv {
+    /* color: rgb(2, 2, 102); */
+    /* text-decoration: solid; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    text-align: center;
+    background-color: rgb(32, 5, 5);
+    /* background-color: #5f4c4c; */
+    /* width: 500px; */
+    /* height: 50px; */
+    /* margin: 1px 0px 0px 3px ; */
+    
+}
+
+.imageFirst {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imageFirst::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Images/pexels-navneet-shanu-202773-672630.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(15px); /* Applies a blur effect to the background image */
+    z-index: -1; /* Ensures the background stays behind the content */
+}
+
+.imageFirst p {
+    position: relative;
+    margin-left: 80px;
+    z-index: 1; /* Keeps the text above the blurred background */
+    color: rgb(255, 255, 255); /* Adjust text color for better visibility */
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 400;
+    max-width: 900px;
+}
+
+.imageSecond {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imageSecond::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Images/pexels-byrahul-2121549.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); /* Applies a blur effect to the background image */
+    z-index: -1; /* Ensures the background stays behind the content */
+}
+
+.imageSecond p {
+    position: relative;
+    margin-right: -80px;
+    z-index: 1; /* Keeps the text above the blurred background */
+    color: rgb(255, 255, 255); /* Adjust text color for better visibility */
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
+    font-size: 55px;
+    font-weight: 400;
+    max-width: 780px;
+
+}
+
+

@@ -1,0 +1,53 @@
+.navbar {
+    background-color: rgb(255, 255, 255); /* Initial background color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and text color */
+    color: rgb(0, 0, 0); /* Initial text color */
+}
+
+.navbar:hover {
+    background-color:rgb(240, 138, 138); /* Background color when hovered */
+    color: rgb(255, 255, 255); /* Text color when hovered */
+}
+
+.navbar:hover .navbar-button {
+    background-color: #ffffff; /* Button background color when navbar is hovered */
+    color: #000000; /* Button text color when navbar is hovered */
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.navbar-logo {
+    margin-left: 50px;
+    font-family: 'Tapestry, serif';
+    font-size: 30px;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    background-color: transparent; /* Set background as transparent */
+}
+
+
+.navbar-button {
+    color: rgb(0, 0, 0);
+    
+     /* Initial button background */
+    padding: 7px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    margin-right: 15px;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for both text and background color */
+}
+
+.navbar-button:hover {
+    color: #ffffff; /* Text color change on hover */
+}
+

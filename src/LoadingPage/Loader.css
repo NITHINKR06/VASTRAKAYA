@@ -1,0 +1,29 @@
+.loader{
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-image: linear-gradient(to right, #ec782a 0%, #3e9738 100%); */
+    background-image: linear-gradient(to right bottom, orange, white, green );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader svg{
+    width: 90%;
+}
+
+.loading-text{
+    width: 100%;
+    font-size: 55px;
+    font-weight: bold ;
+    color: #001563;
+    transform: translate(.4rem);
+    margin-top: 1rem;
+    margin-left: 30px;
+    margin-bottom: -50px;
+    /* font-family: "Tiro Devanagari Sanskrit", serif; */
+}

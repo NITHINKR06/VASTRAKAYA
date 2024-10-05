@@ -1,0 +1,41 @@
+
+
+.StateImage{
+    /* box-shadow:  black 10px 10px 10px 10px; */
+    width: 350px;
+    height: 420px;
+    padding: 5px;
+}
+
+.StateImage:hover{
+    border-radius: 70px;
+    /* box-shadow:  black 10px 10px 10px 10px; */
+
+}
+
+.hover-word:hover {
+    color: #359dff; /* Change to your preferred color */
+    transition: color 0.3s ease;
+    font-weight: 800;
+    /* font-size: 35px; */
+  }
+  
+.landivsub:hover{
+    /* font-size: 30px; */
+    box-shadow: rgba(86, 85, 85, 0.331) 3px 3px 7px 3px;
+}
+
+.lantext{
+    font-size: 25px;
+    width: 50%;
+    font-family: 'Satisfy', cursive;
+    margin-top: 8px;
+}
+
+.lantext:hover{
+    font-size: 30px;
+    width: 50%;
+    font-family: 'Satisfy', cursive;
+    margin-top: 8px;
+}
+
